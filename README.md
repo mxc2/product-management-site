@@ -14,5 +14,7 @@ Frontend: [React](https://reactjs.org/)
 
 Backend: [PHP](https://www.php.net/)
 
+Ps. PHP is written in Object Oriented. I also made a procedural version which you can find from [here](https://bitbucket.org/mxc4u/scandiweb/src/38bb3d5e0f7e0bd6a7d14b2d09f62142a40c15ff/PHP/)
+
 ## Try it out!
 [Click Here](https://simmerscandiweb.vercel.app/)
