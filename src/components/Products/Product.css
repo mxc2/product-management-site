@@ -1,0 +1,56 @@
+/* Container where all the cards are located */
+/* There are many diffrent ways to do this. I chose to go with justify-content: space-between, which means that the last row may look a little weird. Another way to go is with
+   justify-content: start, but then there is a chance that if the window is resized, then there will be a big white space after the last card on a row. 
+   In my opinion space-between looks better, but this can ofcourse be changed :) */
+.container-cards{
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Card where all the product attributes are located at product list */
+.card {
+  width: 250px;
+  height: 120px;  
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  padding: 25px 15px 50px;
+  font-size: 15px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+/* Small shadow when the cursor is over the card */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.delete-checkbox{
+  text-align: left;
+  margin-left: 5px;  
+}
+
+/* Product details */
+.product {
+  margin-top: 5px;
+  word-wrap: break-word;
+}
+
+/* Small margin for product text to help diffrentiate between diffrent product attributes */
+.product-attributes{
+  margin-bottom: 2.5px;
+}
+
+/* Put the cards in the middle of screen when only showing 1 card per row */
+@media only screen and (max-width: 825px) {
+  .container-cards{
+    justify-content: center;
+  }
+
+  .card{
+    align-content: center;
+  }
+}

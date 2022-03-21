@@ -1,0 +1,58 @@
+/* Product form inputs and select style */
+input[type=text], input[type=number], select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: left;
+  width: 20%;
+  margin-top: 16px;
+}
+
+/* Product form label */ 
+label {
+  padding: 12px 12px 12px 0;
+  float: left;
+  width: 11%;
+  margin-top: 16px;
+}
+
+/* Input error that comes after a input[type=text] or input[type=number] on the same line */
+.input-error{
+  margin-left: 8px;
+  margin-top: 12px;
+  float: left;
+  font-size: 15px; /* If size > 15 then .row height grows */
+  color: red;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Error message that is under the form */
+.error{
+  color: red;
+}
+
+/* Mobile Form Size */
+@media only screen and (max-width: 750px) {
+	
+  label{
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  input[type=text], input[type=number], select{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .input-error{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+}

@@ -1,0 +1,79 @@
+/* HEADER Start*/
+.header {
+    overflow: hidden;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+  
+.line {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 12px;
+}
+  
+.header h1{
+    float: left;
+    text-decoration: none;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+  
+.header-buttons{
+    float: right;
+    margin-top: 11px;
+}
+  
+.button{
+    background-color: white;
+    border-color: black;
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 6px;
+    cursor: pointer;
+}
+  
+.button:hover{
+background-color: black;
+color: white;
+}
+
+/* Fixes a bug where if you alt+tab alot after looking at a button, it will place a weird object behind the button */
+.button::selection{
+    color: none;
+    background: none;
+}
+/* End */
+  
+/* Change the button placement on header when "mobile size" */
+@media only screen and (max-width: 700px) {
+.header {
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+        
+.header h1{
+    float: none;
+    text-align: center;
+    display: block;
+    }	
+        
+.header-buttons{
+    float: none;
+    margin-top: 11px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+        
+.button{
+      width: 100%;
+  }
+        
+.line {
+    margin-left: 90px;
+    margin-right: 90px;
+  } 
+        
+}

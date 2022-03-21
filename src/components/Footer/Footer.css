@@ -1,0 +1,13 @@
+/* The footer at the bottom of webpage */
+.footer {
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+ }
+
+.line{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+

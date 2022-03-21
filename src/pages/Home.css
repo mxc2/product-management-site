@@ -1,0 +1,6 @@
+/* Message if no products or loading */
+.warning {
+    margin-top: auto;
+    text-align: center;
+    color:red;
+}
