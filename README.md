@@ -18,3 +18,5 @@ Ps. PHP is written in Object Oriented. I also made a procedural version which yo
 
 ## Try it out!
 [Click Here](https://simmerscandiweb.vercel.app/)
+
+Ps. If you see no products load on the main page, then most likely PHP hosting is down, as I used free **000webhost** and their uptimes aren't the best.
